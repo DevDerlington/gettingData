@@ -35,11 +35,9 @@ app.get("/hobbies",(req,res)=>{
             res.write(" <h1> your email  is : </h1>" + email);
             res.write(" <h1> you attended  : </h1>" + school);
             res.write(" <h1> your password is :  </h1>" +  password);
+            res.write(" <h1>These are all your details. thanks for the information!  </h1>");
             res.send();
            
-     
-            console.log("your info are " + "first Name: " + fName   + " last Name is " + lName + " your mail address is " + email  + " you attend/attended " + school);
-            });
 app.listen(3000, (req,res)=>{
 console.log("app is up and runing on port 3000");
 
